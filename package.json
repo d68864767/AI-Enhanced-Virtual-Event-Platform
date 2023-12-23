@@ -1,0 +1,22 @@
+{
+  "name": "ai-enhanced-virtual-event-platform",
+  "version": "1.0.0",
+  "description": "A comprehensive virtual event management platform using Node.js, integrating AI to enhance user engagement and experience.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha test.js"
+  },
+  "keywords": ["Node.js", "WebSockets", "AI", "Virtual Event Management"],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.4.6",
+    "@tensorflow/tfjs-node": "^2.8.6"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "chai": "^4.3.4"
+  }
+}
